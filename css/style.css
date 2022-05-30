@@ -1,8 +1,9 @@
 :root{
     --background: rgba(214, 216, 220, 0.6);
     --tabColor:  rgb(47, 58, 65);
-    --secColor: rgba(208, 77, 77, 0.843);
+    --secColor: rgba(33, 91, 102, 0.843);
     --headings: rgba(75, 120, 255, 0.9);
+    --white: #fff;
     --border-radius: 6px;
     }
 * {
@@ -12,7 +13,7 @@
 
 ::selection {
     background-color: var(--headings);
-    color: rgb(0, 0, 0);
+    color: var(--white);
   }
   
 body{
@@ -45,6 +46,7 @@ header h1 {
     color: var(--tabColor)
 }
 .headerp {
+    margin-bottom: 0.5rem;
     padding: 0.6px;
     font-style: italic;
     font-size: 10px;
@@ -53,13 +55,13 @@ h2 {
     font-size: 15px;
     font-style: italic;
     padding: 10px;
-    color: var(--secColor);
+    color: var(--headings);
 }
 h3 {
     font-size: 13px;
     font-style: italic;
     padding: 10px;
-    color: var(--secColor);
+    color: var(--headings);
 }
 
 .nav-list{
@@ -72,7 +74,7 @@ h3 {
     padding: 10px;
     height: min-content;
     font-size: 10px;
-    background-color: var(--secColor);
+    background-color: var(--tabColor);
     border-radius: var(--border-radius);
 }
 .container{
@@ -90,7 +92,12 @@ h3 {
 
 .photo {
     padding: 10px;
-    border-radius: var(--border-radius);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.my-photo{
+    z-index: -5;
 }
 
 .symbol {
@@ -100,39 +107,28 @@ h3 {
     color: var(--tabColor);
 }
 
-    .note:active{
-        line-height: 1.5;
-        color: var(--headings);
-        user-select: all;
-    }
-   
-    a {
-        text-decoration: none;
-        color: var(--tabColor);
-    }
-    button {
-        border-radius: 8px;
-        padding: 5px 2px;
-        margin-bottom: 20px;
-    }
-    button:hover, .nav-list li:hover{
-        box-shadow: inset 0px 0px 5px var(--headings), 0px 0px 10px var(--headings)
-    }
-    button:active {
-        border-color: rgb(133, 4, 4);
-    }
-    button:focus {
-        border-color: rgb(133, 4, 4);
-    }
-   
-    .line-height {
-        line-height: 1.5;
-    }
-    .foot {
-        text-align: center;
-        padding: 30px;
-        height: 10px;
-    }
+.note:active{
+    line-height: 1.5;
+    color: var(--white);
+    user-select: all;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+}
+.nav-list li:hover{
+    box-shadow: inset 0px 0px 5px var(--headings), 0px 0px 10px var(--headings)
+}
+.line-height {
+    line-height: 1.5;
+}
+.foot {
+    text-align: center;
+    padding: 30px;
+    height: 10px;
+}
    
     
 @media (min-width: 552px) {
