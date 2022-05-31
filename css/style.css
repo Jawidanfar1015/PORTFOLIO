@@ -136,6 +136,9 @@ a.resum{
 .download-link{
     margin: 15px;
 }
+.hidden{
+    color: var(--tabColor);
+}
    
     
 @media (min-width: 552px) {
