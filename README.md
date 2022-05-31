@@ -14,7 +14,7 @@ This Website is responsive for any type of devices.
 - Medium Screen Size
   <img width="862" alt="portfolio-tablet" src="https://user-images.githubusercontent.com/99248057/171113074-8dab05fd-a3b5-4f02-99e9-81acb682b121.png">
 
-# [!Check It Online](https://jawidanfar1015.github.io/PORTFOLIO/)
+# [Check It Online](https://jawidanfar1015.github.io/PORTFOLIO/)
 
 # Technologies Used
 
@@ -24,8 +24,8 @@ This Website is responsive for any type of devices.
 
 # Sources
 
-# [!Google](https://www.google.com/)
+[Google](https://www.google.com/)
 
-# [!Youtube](https://www.youtube.com/user/youtube)
+[Youtube](https://www.youtube.com/user/youtube)
 
-# [!W3School](https://www.w3schools.com/)
+[W3School](https://www.w3schools.com/)
