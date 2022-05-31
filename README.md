@@ -1,6 +1,6 @@
 # PORTFOLIO
 
-This is my Portfolio website that you can get information about me, my projects, my education, my skills, my resume and more.
+This is my Portfolio Website that you can get information About Me, My Projects, My Education, My Skills, My Resume and More.
 
 # Responsiveness
 
